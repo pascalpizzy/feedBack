@@ -37,7 +37,7 @@ function FeedbackForm() {
 
     const handleSubmit = (e)=> {
         e.preventDefault()
-        if(text.trim().length > 10){
+        if(text.trim().length > 9){
             const newFeedback = {
                 text,
                 rating
